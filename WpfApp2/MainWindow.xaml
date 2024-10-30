@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Background="#FFECCBCB">
     <Grid>
+        <Button x:Name="MyButton" Content="Hello" HorizontalAlignment="Left" Margin="140,60,0,0" 
+                VerticalAlignment="Top" Height="65" Width="145" FontSize="18"
+                FontWeight="Bold" Click="MyButton_Click" Foreground="#FFE6E2E2" Background="#FFD04D4D"/>
 
     </Grid>
 </Window>
