@@ -15,7 +15,7 @@
                />
         <TextBox x:Name="MyTextBox" HorizontalAlignment="Left" Margin="170,30,0,0" 
                  TextWrapping="Wrap" VerticalAlignment="Top" Width="295" Height="30"
-                 VerticalContentAlignment="Center" FontSize="14" TextChanged="MyTextBox_TextChanged"/>
+                 VerticalContentAlignment="Center" FontSize="14" />
         <TextBlock x:Name="MyTextBlock" HorizontalAlignment="Left" Margin="50,80,0,0" 
                    TextWrapping="Wrap" VerticalAlignment="Top" Width="725" Height="327" Background="#FFEFEEE3" FontSize="18" FontFamily="Consolas"/>
 
